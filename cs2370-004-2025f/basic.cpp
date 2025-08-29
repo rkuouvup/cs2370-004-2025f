@@ -6,6 +6,9 @@
 #include <iostream>
 using namespace std;
 
+
+int f_to_c(int f_degree);
+
 // return_type func_name (paras) {}
 /*int main() {
     //int f;
@@ -20,14 +23,20 @@ using namespace std;
     cout << "The F value is " << f << endl;
     //int c;
     
-    c = (f - 32) * (5.0 / 9);
+    //c = (f - 32) * (5.0 / 9);
+    c = f_to_c(f);
     cout << "The F value is " << c << endl;
     
     
     return 0;
 }*/
 
-int main() {
+int f_to_c(int f_degree) {
+    int answer = (f_degree - 32) * (5.0 / 9);
+    return answer;
+}
+
+/*int main() {
     string myString;
     
     //cin >> myString;
@@ -37,4 +46,4 @@ int main() {
     
     
     return 0;
-}
+}*/
