@@ -2,7 +2,7 @@
 #include <cctype>
 using namespace std;
 
-int main() {
+/*int main() {
     string s;
     int count = 0;
     // ask user to give a string input
@@ -22,4 +22,4 @@ int main() {
     // print the result
     cout << "There are " << count << " upper case letters" << endl;
     return 0;
-}
+}*/
