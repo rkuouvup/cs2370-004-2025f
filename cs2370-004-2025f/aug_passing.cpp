@@ -12,9 +12,24 @@ void updateVector(vector<int>& v, int n) {
         e = e * n;
 }
 
-/*int main() {
+void updateArray(int a[], int n, int size) {
+    for (int i = 0; i < size; i++)
+        a[i] = a[i] + n;
+    cout << endl;
+}
+
+int main() {
     string s = "Hello";
     vector<int> v = {1, 2, 3, 4, 5};
+    int a[] = {1, 2, 3, 4, 5};
+    
+    int size = sizeof(a) / sizeof(int);
+    updateArray(a, 10, size);
+    for (int i = 0; i < size; i++)
+        cout << a[i] << " ";
+    cout << endl;
+    
+    
     
     updateString(s, 2);
     cout << s << endl;
@@ -25,4 +40,4 @@ void updateVector(vector<int>& v, int n) {
     cout << endl;
     
     return 0;
-}*/
+}

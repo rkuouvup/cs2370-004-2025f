@@ -2,7 +2,7 @@
 #include "large_lib.h"
 using namespace std;
 
-int main() {
+/*int main() {
     double n;
     double r;
     
@@ -12,4 +12,4 @@ int main() {
     r = square(n);
     cout << "result: " << r << endl;
     return 0;
-}
+}*/
