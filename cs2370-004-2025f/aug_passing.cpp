@@ -18,7 +18,7 @@ void updateArray(int a[], int n, int size) {
     cout << endl;
 }
 
-int main() {
+/*int main() {
     string s = "Hello";
     vector<int> v = {1, 2, 3, 4, 5};
     int a[] = {1, 2, 3, 4, 5};
@@ -40,4 +40,4 @@ int main() {
     cout << endl;
     
     return 0;
-}
+}*/
