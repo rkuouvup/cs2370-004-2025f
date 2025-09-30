@@ -13,6 +13,15 @@ using namespace std;
 int main() {
     Restaurant r1;
     r1.Print();
-    cout << r1.GetName() << endl;
+    r1.SetName("Wing Fat");
+    // Restaurant::SetName(r1, "Wing Fat");
+    r1.SetRating(5);
+    r1.Print();
+    
+    Restaurant r2;
+    r2.SetName("Burger King");
+    r2.SetRating(2);
+    r2.Print();
+    //cout << r1.GetName() << endl;
     return 0;
 }
