@@ -11,11 +11,14 @@ private:
     string name;
     int rating;
     const int id;
+    static int nextid;
 public:
     Restaurant();
+    Restaurant(string name, int rating);
         /*void Print() {
             cout << "Restaurant and Rating" << endl;
         }*/
+    static int GetNextId();
     void SetName(string name);
     void SetRating(int myRating);
     void Print() const;
