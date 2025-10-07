@@ -20,4 +20,29 @@ TimeHrMn::TimeHrMn(int hours, int minutes) {
     }
     this->hours = hours + carry;
 }
+TimeHrMn TimeHrMn::operator+(TimeHrMn rhs) {
+    TimeHrMn timeTotal(this->hours + rhs.hours, this->minutes + rhs.minutes);
+    return timeTotal;
+}
+
+void TimeHrMn::Print() const {
+    cout << hours << ":" << minutes << endl;
+}
+
+/*bool operator==(const TimeHrMn& lhs, const TimeHrMn& rhs) {
+    return (lhs.GetHours() == rhs.GetHours() && lhs.GetMinutes() == rhs.GetMinutes());
+}
+TimeHrMn operator+(int lhs, TimeHrMn rhs) {
+    TimeHrMn totalTime(lhs + rhs.GetHours(), rhs.GetMinutes());
+    return totalTime;
+}*/
+
+bool operator==(const TimeHrMn& lhs, const TimeHrMn& rhs) {
+    return (lhs.hours == rhs.hours && lhs.minutes == rhs.minutes);
+}
+TimeHrMn operator+(int lhs, TimeHrMn rhs) {
+    TimeHrMn totalTime(lhs + rhs.hours, rhs.minutes);
+    return totalTime;
+}
+
 
