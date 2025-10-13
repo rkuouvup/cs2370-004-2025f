@@ -8,7 +8,7 @@
 #include "TimeHrMn.h"
 using namespace std;
 
-int main() {
+/*int main() {
     TimeHrMn t1(9, 70);
     TimeHrMn t2(2, 100);
     TimeHrMn t3 = t1 + t2;
@@ -25,4 +25,4 @@ int main() {
     t5.Print();
     
     return 0;
-}
+}*/
