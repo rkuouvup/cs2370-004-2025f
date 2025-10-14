@@ -8,7 +8,7 @@
 #include <stdexcept>
 using namespace std;
 
-int main() {
+/*int main() {
     try {
         //throw 20;
         throw out_of_range("Out of range in line xxxx");
@@ -18,4 +18,4 @@ int main() {
         cout << "Exception: " << ex.what() << endl;
     }
     return 0;
-}
+}*/
