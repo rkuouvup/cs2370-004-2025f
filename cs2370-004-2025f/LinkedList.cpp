@@ -99,7 +99,7 @@ void LinkedList::Print() const {
 }
 
 
-int main() {
+/*int main() {
     //LinkedListNode n1(1);
     //LinkedListNode n2(n1);
     //cout << "n1: " << n1.GetData() << endl;
@@ -140,4 +140,4 @@ int main() {
     cout << "l2: "; l2.Print();
 
     return 0;
-}
+}*/

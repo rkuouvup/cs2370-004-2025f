@@ -6,7 +6,7 @@
 #include <cstdlib>
 using namespace std;
 
-class Restaurant {
+/*class Restaurant {
 private:
     string name;
     int rating;
@@ -15,15 +15,15 @@ private:
 public:
     Restaurant();
     Restaurant(string name, int rating);
-        /*void Print() {
-            cout << "Restaurant and Rating" << endl;
-        }*/
+        //void Print() {
+        //    cout << "Restaurant and Rating" << endl;
+        //}
     static int GetNextId();
     void SetName(string name);
     void SetRating(int myRating);
     void Print() const;
     string GetName() const;
-};
+}*/
 
 #endif
 
