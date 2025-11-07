@@ -22,6 +22,10 @@ class Restaurant : public Business {
 public:
     void SetRating(int userRating) {rating = userRating;}
     int GetRating() const {return rating;}
+    string GetDescription() const {
+        return Business::GetDescription() + ": " + to_string(rating);
+        
+    }
     void DisplayRestaurant() {
         cout << name << "--" << address << ": " << rating << endl;
     }
@@ -38,8 +42,8 @@ int main() {
     r1.SetAddress("Orem");
     r1.SetRating(5);
     cout << b1.GetDescription() << endl;
-    cout << r1.GetDescription();
-    cout << " Rating: " << r1.GetRating() << endl;
-    r1.DisplayRestaurant();
+    cout << r1.GetDescription() << endl;
+    //cout << " Rating: " << r1.GetRating() << endl;
+    //r1.DisplayRestaurant();
     return 0;
 }
