@@ -12,7 +12,7 @@ using namespace std;
 
 // TODO: Define classes: Badge, Shape (abstract class), Circle, and Rectangle
 
-int main() {
+/*int main() {
     //list<Badge> badge_list;
     vector<vector<string>> info;
     info.push_back({"Beginner", "Green", "Rectangle"});
@@ -29,5 +29,5 @@ int main() {
         //e.PrintInfo();
     
     return 0;
-}
+}*/
 
