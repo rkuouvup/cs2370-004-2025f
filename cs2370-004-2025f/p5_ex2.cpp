@@ -55,7 +55,7 @@ public:
     }
 };
 
-int main() {
+/*int main() {
     //list<Badge> badge_list;
     vector<Badge> badge_list;
     vector<vector<string>> info;
@@ -85,4 +85,4 @@ int main() {
         e.PrintInfo();
     
     return 0;
-}
+}*/
