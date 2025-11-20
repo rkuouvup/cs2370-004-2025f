@@ -45,10 +45,10 @@ T TripleItem<T>::MaxItem() {
 
 
 
-int main() {
+/*int main() {
     TripleInt d(5, 3, 8);
     cout << "max (5, 3, 8): " << d.MaxItem() << endl;
     TripleItem item1(5, 3, 8);
     cout << "max (5, 3, 8): " << item1.MaxItem() << endl;
     return 0;
-}
+}*/
